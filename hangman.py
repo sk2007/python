@@ -13,7 +13,7 @@ def checklives(lives):
         if i == 0:
             print('You are hanged!')
             break
-words = ['supercalifragilisticexpialidocious', 'aardvark', 'butter', 'chicken', 'furry', 'python', 'java', 'kotlin', 'javascript']  # Write your code here
+words = ['aardvark', 'butter', 'chicken', 'furry', 'python', 'java', 'kotlin', 'javascript']  # Write your code here
 word = random.choice(words)
 temp = word
 chosen = word
@@ -36,7 +36,6 @@ for attempts in range(lives + len(word)):
                 print()
                 print('Congratulations! You have guessed the word ' + word + '!')
                 print("Thanks for playing!")
-                print("We'll see how you did in the next stage")
                 break
         elif guess not in temp:
             print('No such letter in the word')
