@@ -89,6 +89,12 @@ while option != 'exit':
                 elif cups < cups_n:
                     print('Sorry, not enough disposable cups!')
                     print()
+        print('The coffee machine has: ')
+        print(str(water), 'of water')
+        print(str(milk), 'of milk')
+        print(str(coffee), 'of coffee beans')
+        print(str(cups), 'of disposable cups')
+        print(str(money), 'of money')
     elif option == 'take':
         print()
         print('I gave you $' + str(money))
